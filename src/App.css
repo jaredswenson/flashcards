@@ -26,6 +26,24 @@
 
 .App-link {
   color: #61dafb;
+  font-size: 15rem;
+  margin: 0;
+}
+
+.flashcard-wrapper {
+  height: 750px;
+  width: 500px;
+  border-radius: 8px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle-button {
+  margin-top: 10px;
+
 }
 
 @keyframes App-logo-spin {
